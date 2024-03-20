@@ -1,16 +1,16 @@
-import firebase from 'firebase/app'
+import firebase from "firebase/app";
 
-import 'firebase/auth'
+import "firebase/auth";
 
 const firebaseConfig = {
-   apiKey: 'AIzaSyCOoquLockIxYZVE5nreKPDMDbVTh6KT-U',
-   authDomain: 'not-yt.firebaseapp.com',
-   projectId: 'not-yt',
-   storageBucket: 'not-yt.appspot.com',
-   messagingSenderId: '713650135776',
-   appId: '1:713650135776:web:3612f40b495bd9e6ef6685',
-}
+  apiKey: "AIzaSyCoXdmeLgp5dbZHl8rGsZvI7O21aQz77jQ",
+  authDomain: "sairaj04-cloned.firebaseapp.com",
+  projectId: "sairaj04-cloned",
+  storageBucket: "sairaj04-cloned.appspot.com",
+  messagingSenderId: "139091639122",
+  appId: "1:139091639122:web:414fdfecd7a55a4a43588b",
+};
 
-firebase.initializeApp(firebaseConfig)
+firebase.initializeApp(firebaseConfig);
 
-export default firebase.auth()
+export default firebase.auth();
