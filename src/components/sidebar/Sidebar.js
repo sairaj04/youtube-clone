@@ -36,37 +36,31 @@ const Sidebar = ({ sidebar, handleToggleSidebar }) => {
           <span>Subscriptions</span>
         </li>
       </Link>
-      <Link>
-        <li>
-          <MdThumbUp size={23} />
-          <span>Liked Video</span>
-        </li>
-      </Link>
-      <Link>
-        <li>
-          <MdHistory size={23} />
-          <span>History</span>
-        </li>
-      </Link>
-      <Link>
-        <li>
-          <MdLibraryBooks size={23} />
-          <span>Library</span>
-        </li>
-      </Link>
-      <Link>
-        <li>
-          <MdSentimentDissatisfied size={23} />
-          <span>I don't Know</span>
-        </li>
-      </Link>
+      <li>
+        <MdThumbUp size={23} />
+        <span>Liked Video</span>
+      </li>
+
+      <li>
+        <MdHistory size={23} />
+        <span>History</span>
+      </li>
+
+      <li>
+        <MdLibraryBooks size={23} />
+        <span>Library</span>
+      </li>
+
+      <li>
+        <MdSentimentDissatisfied size={23} />
+        <span>I don't Know</span>
+      </li>
       <hr />
-      <Link>
-        <li onClick={logOutHandler}>
-          <MdExitToApp size={23} />
-          <span>Log Out</span>
-        </li>
-      </Link>
+
+      <li onClick={logOutHandler}>
+        <MdExitToApp size={23} />
+        <span>Log Out</span>
+      </li>
       <hr />
     </nav>
   );
