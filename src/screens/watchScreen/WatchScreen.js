@@ -25,7 +25,7 @@ const WatchScreen = () => {
   }, [dispatch, id]);
 
   const { videos, loading: relatedVideosLoading } = useSelector(
-    (state) => state.relatedVideos
+    (state) => state.relatedVideos,
   );
 
   const { video, loading } = useSelector((state) => state.selectedVideo);
